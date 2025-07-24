@@ -1,7 +1,7 @@
 from . import __version__ as app_version  # noqa
 
 app_name = "healthcare"
-app_title = "Marley Health"
+app_title = "Cohenix Health"
 app_publisher = "earthians Health Informatics Pvt. Ltd."
 app_description = "Modern, Open Source HIS built on Frappe and ERPNext"
 app_icon = "octicon octicon-file-directory"
@@ -15,7 +15,7 @@ add_to_apps_screen = [
 	{
 		"name": "healthcare",
 		"logo": "/assets/healthcare/images/healthcare.svg",
-		"title": "Marley Health",
+		"title": "Cohenix Health",
 		"route": "/app/healthcare",
 		"has_permission": "erpnext.check_app_permission",
 	}
